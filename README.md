@@ -1,27 +1,29 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# App Brewery Banner Calculator Layout Boss Challenge
 
-# Calculator Layout Boss Challenge
+This project is part of the App Brewery's Complete App Development Bootcamp and involves creating a complex UI layout using auto layout, stack views, and setting constraints for both portrait and landscape orientations.
 
-No knowledge is your own until you put it into practice. Using what you've learnt about auto layout, stack views and setting constraints, create the following UI. 
+# Challenge Overview
 
-## Portrait
+The challenge involves creating a calculator layout with specific requirements for both portrait and landscape orientations. The difficulty levels and goals are as follows:
 
-![Portrait](Documentation/Portrait.png)
+Bronze Medal: Layout constrained to Safe Areas in both portrait and landscape modes.
 
-## Landscape
-![Landscape](Documentation/Landscape.png)
+Silver Medal: Indent the Label with the "0" button to maintain a 20px distance from the right edge of the screen.
 
-This is a difficult challenge. You pass the challenge if you can create the vertical and horizontal stacks required for the layout. Once you've done that, you can also get extra credit if you figure out how to layout the small details.
+Gold Medal: Make the "0" button twice as wide as the "." and "=" buttons.
 
-Bronze Medal: If you can figure out how to have the layout be constrained to the Safe Areas in Portrait and Landscape. (Notice the distance to the edges is different between landscape and portrait.
+# Screenshots
 
-Silver Medal: If you can figure out how to indent the Label with the 0 so that there is 20px distance from the right edge of the screen.
+# Portrait Mode
 
-Gold Medal: If you can figure out how to make the 0 button take up twice as much width as the "." and "=" buttons.
+<img src="https://github.com/user-attachments/assets/2a0a2bc2-d2bf-42ff-aad1-27d407d35976" width="300">
 
-If you get stuck, check out the solution video in the next lesson.
+# Landscape Mode
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+<img src="https://github.com/user-attachments/assets/5bab2f9c-47b3-476d-962e-76cbb2f01c94" width="300">
 
-![End Banner](Documentation/readme-end-banner.png)
+# Implementation Details
 
+Used stack views to organize rows and columns of buttons.
+Applied constraints to ensure the layout adapts correctly to different screen sizes and orientations.
+Utilized safe area layout guides to maintain consistent spacing from device edges.
